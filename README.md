@@ -7,5 +7,5 @@ command line first, per [Stack Overflow](https://superuser.com/questions/43678/m
 
     sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist
 
-To use, ensure that the AWS CLI is configured properly, and access is
+To use, first ensure that the AWS CLI is configured properly, and access is
 enabled to your S3 bucket, then run `./screenshots.sh`.
