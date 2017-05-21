@@ -6,6 +6,6 @@ FILE_NAME=$DIR/`date "+%Y%m%d_%H%M%S.png"`
 
 screencapture $FILE_NAME
 
-at now + 1 minute << END
+at now + 10 minute << END
   "$0" "$@"
 END
